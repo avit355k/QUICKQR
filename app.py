@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, send_file, url_for
 import qrcode
 import os
-import io
+import io   
 from werkzeug.utils import secure_filename
 import threading
 import time
@@ -60,4 +60,6 @@ def download_file(filename):
     return send_file(os.path.join(uploads_dir, filename), as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
