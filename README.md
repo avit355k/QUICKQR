@@ -22,3 +22,5 @@
    ```bash
    git clone https://github.com/avit355k/QUICKQR.git
 ## Screenshots
+![Screenshot 2025-04-28 130535](https://github.com/user-attachments/assets/2efa2fc7-0839-405f-9572-a7091391c4db)
+![Screenshot 2025-04-28 125938](https://github.com/user-attachments/assets/376f8387-6144-4c8a-8943-e8a903ccbcc4)
